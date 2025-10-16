@@ -1,0 +1,100 @@
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
+File Name: C:\Downloaded Web Sites\tamaev.cc\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\tamaev.cc\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\tamaev.cc\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\tamaev.cc\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\tamaev.cc\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\tamaev.cc\s\inter\v20\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://mc.yandex.ru/watch/102112165
+File Name: C:\Downloaded Web Sites\tamaev.cc\watch\102112165
+Content Type: image/gif
+
+Uri: https://tamaev.cc/
+File Name: C:\Downloaded Web Sites\tamaev.cc\index.htm
+Content Type: text/html
+
+Uri: https://tamaev.cc/biography.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\biography.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/contact.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\contact.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/cookie.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\cookie.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/index.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\index.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/pechenka.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\pechenka.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/projects.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\projects.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/racket.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\racket.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/raketka.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\raketka.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/script.js
+File Name: C:\Downloaded Web Sites\tamaev.cc\script.js
+Content Type: application/javascript
+
+Uri: https://tamaev.cc/styles.css
+File Name: C:\Downloaded Web Sites\tamaev.cc\styles.css
+Content Type: text/css
+
+Uri: https://tamaev.cc/tamaev.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\tamaev.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/tamaev2.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\tamaev2.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/tamaev3.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\tamaev3.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/tamaev4.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\tamaev4.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/vavada.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\vavada.html
+Content Type: text/html
+
+Uri: https://tamaev.cc/vavada.jpg
+File Name: C:\Downloaded Web Sites\tamaev.cc\vavada.jpg
+Content Type: image/jpeg
+
+Uri: https://tamaev.cc/videos.html
+File Name: C:\Downloaded Web Sites\tamaev.cc\videos.html
+Content Type: text/html
+
