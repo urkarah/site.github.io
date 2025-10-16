@@ -1,0 +1,459 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео Асхаба Тамаева - Лучшие ролики и влоги | YouTube канал @tamaeev</title>
+    
+    <!-- SEO Meta теги -->
+    <meta name="description" content="Смотрите лучшие видео Асхаба Тамаева: влоги, развлекательный контент, обзоры игр. Официальные видео с YouTube канала @tamaeev.">
+    <meta name="keywords" content="видео тамаева, асхаб тамаев видео, влоги тамаева, контент тамаева, ракетка тамаев видео, youtube тамаев">
+    <meta name="author" content="Асхаб Тамаев">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="videos.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Видео Асхаба Тамаева - Лучшие ролики и влоги">
+    <meta property="og:description" content="Лучшие видео, влоги и развлекательный контент от популярного блогера Асхаба Тамаева">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tamaev.cc/videos.html">
+    <meta property="og:site_name" content="ТАМАЕВ.CC">
+    <meta property="og:locale" content="ru_RU">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Видео Асхаба Тамаева">
+    <meta name="twitter:description" content="Лучшие видео и влоги от популярного блогера">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(102112165, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="watch/102112165" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
+    <!-- Schema.org разметка -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGallery",
+        "name": "Видео Асхаба Тамаева",
+        "description": "Коллекция лучших видео, влогов и развлекательного контента от Асхаба Тамаева",
+        "author": {
+            "@type": "Person",
+            "name": "Асхаб Тамаев",
+            "sameAs": "https://www.youtube.com/@tamaeev"
+        },
+        "url": "https://tamaev.cc/videos.html"
+    }
+    </script>
+    
+    <style>
+        .videos-hero {
+            background: linear-gradient(135deg, #48dbfb 0%, #0abde3 100%);
+            color: white;
+            padding: 150px 0 100px;
+            text-align: center;
+        }
+        
+        .videos-section {
+            background: white;
+            padding: 100px 0;
+        }
+        
+        .videos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .video-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .video-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+        }
+        
+        .video-thumbnail {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .video-thumbnail.placeholder {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            font-size: 3rem;
+        }
+        
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #667eea;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .video-card:hover .play-button {
+            background: white;
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+        
+        .video-content {
+            padding: 2rem;
+        }
+        
+        .video-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #333;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .video-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .video-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #999;
+        }
+        
+        .video-views {
+            background: linear-gradient(45deg, #48dbfb, #0abde3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #48dbfb;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .api-info {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 3rem;
+            border-left: 5px solid #48dbfb;
+        }
+        
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .category-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .category-btn:hover,
+        .category-btn.active {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .featured-video {
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .featured-iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>ТАМАЕВ.CC</h1>
+                <span>Видео Асхаба</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="biography.html">Биография</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><a href="racket.html">Ракетка Тамаев</a></li>
+                <li><a href="videos.html">Видео</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="videos-hero">
+        <div class="container">
+            <h1>Видео Асхаба Тамаева</h1>
+            <h2>Лучшие ролики и влоги</h2>
+            <p>Смотрите популярные видео с официального YouTube канала @tamaeev</p>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="videos-section">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 3rem; margin-bottom: 2rem; color: #333;">Популярные видео</h2>
+            <p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 3rem;">
+                Лучший контент от Асхаба Тамаева
+            </p>
+
+            <!-- Featured Video -->
+            <div class="featured-video">
+                <iframe class="featured-iframe" src="https://www.youtube.com/embed/-4g84hT4sig" allowfullscreen=""></iframe>
+                <div class="video-content">
+                    <h3 class="video-title">Ракетка Тамаев - Главный хит</h3>
+                    <div class="video-meta">
+                        <span class="video-views">🎬 Смотреть на YouTube</span>
+                        <span>Популярное видео</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videos Grid -->
+            <div class="videos-grid">
+                <div class="video-card" onclick="openVideo('ezd3kGOqsNo')">
+                    <div class="video-thumbnail" style="background-image: url('https://img.youtube.com/vi/ezd3kGOqsNo/mqdefault.jpg')">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-content">
+                        <h3 class="video-title">Печенька Тамаев - Как заработать миллионы</h3>
+                        <p class="video-description">Полный разбор стратегий инвестирования и заработка в интернете от Асхаба Тамаева</p>
+                        <div class="video-meta">
+                            <span class="video-views">1.2M просмотров</span>
+                            <span>Популярное</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card" onclick="openVideo('NaHiq0QkOaA')">
+                    <div class="video-thumbnail" style="background-image: url('https://img.youtube.com/vi/NaHiq0QkOaA/mqdefault.jpg')">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-content">
+                        <h3 class="video-title">Мой день миллионера - Асхаб Тамаев</h3>
+                        <p class="video-description">Показываю как проходит обычный день успешного блогера и предпринимателя</p>
+                        <div class="video-meta">
+                            <span class="video-views">2.1M просмотров</span>
+                            <span>ТОП видео</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card" onclick="openVideo('-AllSHDlBxE')">
+                    <div class="video-thumbnail" style="background-image: url('https://img.youtube.com/vi/-AllSHDlBxE/mqdefault.jpg')">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-content">
+                        <h3 class="video-title">Бизнес с нуля - История успеха Тамаева</h3>
+                        <p class="video-description">Как я построил медиа-империю и заработал первые миллионы рублей</p>
+                        <div class="video-meta">
+                            <span class="video-views">1.5M просмотров</span>
+                            <span>Бизнес</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card" onclick="openVideo('RZsYOEcTUt4')">
+                    <div class="video-thumbnail" style="background-image: url('https://img.youtube.com/vi/RZsYOEcTUt4/mqdefault.jpg')">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-content">
+                        <h3 class="video-title">Играю в ракетку на миллион - Lucky Jet</h3>
+                        <p class="video-description">Безумная сессия игры в ракетка Тамаев с огромными ставками в 1win</p>
+                        <div class="video-meta">
+                            <span class="video-views">4.1M просмотров</span>
+                            <span>Игры</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card" onclick="openVideo('mRekM-74g94')">
+                    <div class="video-thumbnail" style="background-image: url('https://img.youtube.com/vi/mRekM-74g94/mqdefault.jpg')">
+                        <div class="play-button">▶</div>
+                    </div>
+                    <div class="video-content">
+                        <h3 class="video-title">Обзор моего дома за 50 миллионов</h3>
+                        <p class="video-description">Показываю свой новый дом и рассказываю о планах на будущее</p>
+                        <div class="video-meta">
+                            <span class="video-views">3.2M просмотров</span>
+                            <span>Lifestyle</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Photo Gallery -->            <div style="margin: 4rem 0;">                <h3 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem; color: #333;">Фото Асхаба Тамаева</h3>                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin: 2rem 0;">                    <div style="text-align: center;">                        <img src="tamaev.jpg" alt="Асхаб Тамаев" style="width: 100%; max-width: 250px; height: 250px; border-radius: 15px; object-fit: cover; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">                        <p style="margin-top: 1rem; color: #666; font-weight: 500;">Основатель</p>                    </div>                    <div style="text-align: center;">                        <img src="tamaev2.jpg" alt="Асхаб Тамаев блогер" style="width: 100%; max-width: 250px; height: 250px; border-radius: 15px; object-fit: cover; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">                        <p style="margin-top: 1rem; color: #666; font-weight: 500;">Блогер</p>                    </div>                    <div style="text-align: center;">                        <img src="tamaev3.jpg" alt="Асхаб Тамаев предприниматель" style="width: 100%; max-width: 250px; height: 250px; border-radius: 15px; object-fit: cover; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">                        <p style="margin-top: 1rem; color: #666; font-weight: 500;">Предприниматель</p>                    </div>                    <div style="text-align: center;">                        <img src="tamaev4.jpg" alt="Асхаб Тамаев медиа" style="width: 100%; max-width: 250px; height: 250px; border-radius: 15px; object-fit: cover; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">                        <p style="margin-top: 1rem; color: #666; font-weight: 500;">Медиа-магнат</p>                    </div>                </div>            </div>            <!-- Social Links -->            <div class="social-links">                <a href="https://youtube.com/@tamaeev" class="social-link" target="_blank">                    <span>🎬</span>                    <span>YouTube канал</span>                </a>                <a href="https://t.me/askhab_tamaev" class="social-link" target="_blank">                    <span>📱</span>                    <span>Telegram</span>                </a>                <a href="https://instagram.com/askhab_tamaev" class="social-link" target="_blank">                    <span>📸</span>                    <span>Instagram</span>                </a>            </div>
+        </div>
+    </section>
+
+    <!-- SEO Section -->
+    <section class="keywords-section">
+        <div class="container">
+            <h2>Видео Асхаба Тамаева - лучший контент</h2>
+            <div class="keywords-grid">
+                <div class="keyword-item">
+                    <h4>Видео Тамаева YouTube</h4>
+                    <p>Свежие ролики с официального канала @tamaeev - влоги, развлечения, бизнес</p>
+                </div>
+                <div class="keyword-item">
+                    <h4>Асхаб Тамаев влоги</h4>
+                    <p>Личные видео из жизни популярного блогера и предпринимателя</p>
+                </div>
+                <div class="keyword-item">
+                    <h4>Контент Тамаева 2024</h4>
+                    <p>Актуальные видео о ракетке, криптовалютах и успешном бизнесе</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Видео Тамаева</h3>
+                    <p>Лучший контент от Асхаба Тамаева</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Популярные видео</h3>
+                    <ul>
+                        <li><a href="#videos">Последние ролики</a></li>
+                        <li><a href="#popular">Популярное</a></li>
+                        <li><a href="racket.html">Ракетка Тамаев</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Социальные сети</h3>
+                    <ul>
+                        <li><a href="https://youtube.com/@tamaeev" target="_blank">YouTube</a></li>
+                        <li><a href="https://instagram.com/askhab_tamaev" target="_blank">Instagram</a></li>
+                        <li><a href="https://t.me/askhab_tamaev" target="_blank">Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Видео Асхаба Тамаева. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Функция для открытия видео в новой вкладке
+        function openVideo(videoId) {
+            window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank');
+        }
+    </script>
+</body>
+</html> 
